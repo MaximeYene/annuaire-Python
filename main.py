@@ -1,5 +1,5 @@
 from PackageFonctions.fonctions import *
-from PackageFonctions.messages import ajout_message
+from PackageFonctions.messages import *
 
 
 while True:
@@ -10,6 +10,7 @@ while True:
     print('4.Modifier un contact')
     print('5.Afficher l annuaire')
     print('6.Ajouter un message')
+    print('7.Supprimer un message')
     print('7.Quitter')
 
     choix=input('Entrez votre choix ')
@@ -27,5 +28,8 @@ while True:
         case '6':
             ajout_message()
         case '7':
+            supprimer_message()
+        case '8':
             break
+
 
